@@ -11,9 +11,12 @@ paper/
 # Reviews and decision (private)
 reviews/
 
-# Template zip and OpenReview PDF
+# Template zip
 mathai2026.zip
+
+# PDFs (except the paper itself)
 *.pdf
+!Riemannian Geometry of Multimodal Biometric Embedding Spaces.pdf
 
 # Python
 __pycache__/
