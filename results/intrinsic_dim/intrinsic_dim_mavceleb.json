@@ -1,0 +1,51 @@
+{
+  "arcface": {
+    "encoder": "arcface",
+    "n_samples": 1210,
+    "ambient_dim": 512,
+    "global_mle": 13.517662496963728,
+    "global_twonn": 5.610693966258049
+  },
+  "siglip": {
+    "encoder": "siglip",
+    "n_samples": 1210,
+    "ambient_dim": 768,
+    "global_mle": 11.854718108499178,
+    "global_twonn": 8.008849327837874
+  },
+  "dinov2": {
+    "encoder": "dinov2",
+    "n_samples": 1210,
+    "ambient_dim": 768,
+    "global_mle": 11.007251711451396,
+    "global_twonn": 6.177351713969629
+  },
+  "clip": {
+    "encoder": "clip",
+    "n_samples": 1210,
+    "ambient_dim": 512,
+    "global_mle": 9.355189283321744,
+    "global_twonn": 8.205261757402345
+  },
+  "wavlm": {
+    "encoder": "wavlm",
+    "n_samples": 1392,
+    "ambient_dim": 1024,
+    "global_mle": 25.405921452413065,
+    "global_twonn": 4.946125034888263
+  },
+  "hubert": {
+    "encoder": "hubert",
+    "n_samples": 1392,
+    "ambient_dim": 1024,
+    "global_mle": 18.609263396800873,
+    "global_twonn": 5.925979503625471
+  },
+  "wav2vec2": {
+    "encoder": "wav2vec2",
+    "n_samples": 1392,
+    "ambient_dim": 1024,
+    "global_mle": 25.049035443877443,
+    "global_twonn": 6.711825741883011
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "n_pairs": 24,
+  "datasets": [
+    "voxceleb1",
+    "mavceleb"
+  ],
+  "correlations": {
+    "gw_distance": {
+      "spearman_r": -0.19130434782608693,
+      "spearman_p": 0.3705328066699431,
+      "pearson_r": -0.1869053242156384,
+      "pearson_p": 0.3818417067890165,
+      "bootstrap_ci_95": [
+        -0.6306285847280504,
+        0.32614879649890577
+      ],
+      "n_pairs": 24
+    },
+    "spectral_gap": {
+      "spearman_r": -0.09043478260869564,
+      "spearman_p": 0.67430275825611,
+      "pearson_r": -0.16965165018833328,
+      "pearson_p": 0.42805639739971524,
+      "bootstrap_ci_95": [
+        -0.4434200773191323,
+        0.3042223221597239
+      ],
+      "n_pairs": 24
+    },
+    "cka": {
+      "spearman_r": -0.606086956521739,
+      "spearman_p": 0.0016940936259311088,
+      "pearson_r": -0.4956735072781838,
+      "pearson_p": 0.013773302185068441,
+      "bootstrap_ci_95": [
+        -0.7875336479904014,
+        -0.34410458121682924
+      ],
+      "n_pairs": 24
+    },
+    "id_mismatch": {
+      "spearman_r": -0.4556521739130434,
+      "spearman_p": 0.025246055642045406,
+      "pearson_r": -0.5185013808959793,
+      "pearson_p": 0.009437270038603302,
+      "bootstrap_ci_95": [
+        -0.7986935735788812,
+        0.016304385823319542
+      ],
+      "n_pairs": 24
+    }
+  },
+  "regression": {
+    "features": [
+      "gw_distance",
+      "spectral_gap",
+      "cka",
+      "id_mismatch"
+    ],
+    "coefficients": [
+      -0.02925961320669536,
+      -0.0027689740814775612,
+      -0.04389860964563547,
+      -0.0424586262235738
+    ],
+    "intercept": 0.3908826625182047,
+    "r_squared": 0.5893241480990323
+  },
+  "pairs": [
+    {
+      "pair": "arcface__wavlm",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.06818259694525612,
+      "spectral_gap": 0.34878581119074575,
+      "cka": 0.04053951416982122,
+      "id_mismatch": 19.843729501939436,
+      "eer": 0.4206506024096386
+    },
+    {
+      "pair": "arcface__hubert",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.0050095604332180185,
+      "spectral_gap": 0.5217351876508722,
+      "cka": 0.015191630392047984,
+      "id_mismatch": 13.757945277161333,
+      "eer": 0.4796867469879518
+    },
+    {
+      "pair": "arcface__wav2vec2",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.0033765971603070414,
+      "spectral_gap": 0.32281306809270793,
+      "cka": 0.020259356850152434,
+      "id_mismatch": 9.495401224535122,
+      "eer": 0.48846586345381526
+    },
+    {
+      "pair": "siglip__wavlm",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.01610694073484856,
+      "spectral_gap": 0.23050617959272288,
+      "cka": 0.1290199886483133,
+      "id_mismatch": 21.765170574799708,
+      "eer": 0.311140562248996
+    },
+    {
+      "pair": "siglip__hubert",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.03157971972886352,
+      "spectral_gap": 0.42489713702286735,
+      "cka": 0.025557209784140607,
+      "id_mismatch": 15.679386350021606,
+      "eer": 0.39559036144578313
+    },
+    {
+      "pair": "siglip__wav2vec2",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.021139803271282814,
+      "spectral_gap": 0.2859438427229105,
+      "cka": 0.02798382759543697,
+      "id_mismatch": 11.416842297395394,
+      "eer": 0.4237349397590362
+    },
+    {
+      "pair": "dinov2__wavlm",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.016487534491481673,
+      "spectral_gap": 0.27460408593866004,
+      "cka": 0.16974257051263483,
+      "id_mismatch": 20.718355607925968,
+      "eer": 0.3002971887550201
+    },
+    {
+      "pair": "dinov2__hubert",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.14720084569123218,
+      "spectral_gap": 0.46069899513701634,
+      "cka": 0.03250670967087864,
+      "id_mismatch": 14.632571383147866,
+      "eer": 0.37975100401606426
+    },
+    {
+      "pair": "dinov2__wav2vec2",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.12226133487468814,
+      "spectral_gap": 0.32575853906124974,
+      "cka": 0.03443342136347082,
+      "id_mismatch": 10.370027330521655,
+      "eer": 0.41285943775100403
+    },
+    {
+      "pair": "clip__wavlm",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.006515630972957265,
+      "spectral_gap": 0.41611347447059654,
+      "cka": 0.21069686350121672,
+      "id_mismatch": 23.014808366199098,
+      "eer": 0.244144578313253
+    },
+    {
+      "pair": "clip__hubert",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.08471772431610214,
+      "spectral_gap": 0.6310267424279375,
+      "cka": 0.05186883179504457,
+      "id_mismatch": 16.929024141420996,
+      "eer": 0.3526907630522088
+    },
+    {
+      "pair": "clip__wav2vec2",
+      "dataset": "voxceleb1",
+      "gw_distance": 0.0661762513203551,
+      "spectral_gap": 0.4682640746879251,
+      "cka": 0.06080751825881936,
+      "id_mismatch": 12.666480088794785,
+      "eer": 0.3892048192771084
+    },
+    {
+      "pair": "arcface__wavlm",
+      "dataset": "mavceleb",
+      "gw_distance": 0.04459517742008566,
+      "spectral_gap": 0.2197398597249715,
+      "cka": 0.17966422144401908,
+      "id_mismatch": 11.888258955449336,
+      "eer": 0.5192307692307692
+    },
+    {
+      "pair": "arcface__hubert",
+      "dataset": "mavceleb",
+      "gw_distance": 0.009454254400206002,
+      "spectral_gap": 0.17834318338427166,
+      "cka": 0.08308719880662488,
+      "id_mismatch": 5.091600899837145,
+      "eer": 0.5686813186813187
+    },
+    {
+      "pair": "arcface__wav2vec2",
+      "dataset": "mavceleb",
+      "gw_distance": 0.008557805494747432,
+      "spectral_gap": 0.17477163333278176,
+      "cka": 0.08300922670375788,
+      "id_mismatch": 11.531372946913715,
+      "eer": 0.5714285714285714
+    },
+    {
+      "pair": "siglip__wavlm",
+      "dataset": "mavceleb",
+      "gw_distance": 0.013667735686594764,
+      "spectral_gap": 0.3169235084084879,
+      "cka": 0.473031773407482,
+      "id_mismatch": 13.551203343913887,
+      "eer": 0.3434065934065934
+    },
+    {
+      "pair": "siglip__hubert",
+      "dataset": "mavceleb",
+      "gw_distance": 0.03396567233073204,
+      "spectral_gap": 0.11400438805238519,
+      "cka": 0.17773558661785166,
+      "id_mismatch": 6.754545288301696,
+      "eer": 0.37362637362637363
+    },
+    {
+      "pair": "siglip__wav2vec2",
+      "dataset": "mavceleb",
+      "gw_distance": 0.021402529577841733,
+      "spectral_gap": 0.14640899683062786,
+      "cka": 0.1784115167899399,
+      "id_mismatch": 13.194317335378265,
+      "eer": 0.41208791208791207
+    },
+    {
+      "pair": "dinov2__wavlm",
+      "dataset": "mavceleb",
+      "gw_distance": 0.01793389874953619,
+      "spectral_gap": 0.48440442040309745,
+      "cka": 0.5102717434216381,
+      "id_mismatch": 14.398669740961669,
+      "eer": 0.34065934065934067
+    },
+    {
+      "pair": "dinov2__hubert",
+      "dataset": "mavceleb",
+      "gw_distance": 0.09291713663691832,
+      "spectral_gap": 0.2876371185789987,
+      "cka": 0.20101563919622542,
+      "id_mismatch": 7.602011685349478,
+      "eer": 0.33516483516483514
+    },
+    {
+      "pair": "dinov2__wav2vec2",
+      "dataset": "mavceleb",
+      "gw_distance": 0.06820296466753474,
+      "spectral_gap": 0.30350965301247723,
+      "cka": 0.22312195089395723,
+      "id_mismatch": 14.041783732426047,
+      "eer": 0.3708791208791209
+    },
+    {
+      "pair": "clip__wavlm",
+      "dataset": "mavceleb",
+      "gw_distance": 0.022142979621294218,
+      "spectral_gap": 0.24783517771250477,
+      "cka": 0.5077888726534634,
+      "id_mismatch": 16.05073216909132,
+      "eer": 0.27472527472527475
+    },
+    {
+      "pair": "clip__hubert",
+      "dataset": "mavceleb",
+      "gw_distance": 0.1037116731761336,
+      "spectral_gap": 0.18340825402849634,
+      "cka": 0.24107100009539972,
+      "id_mismatch": 9.25407411347913,
+      "eer": 0.2912087912087912
+    },
+    {
+      "pair": "clip__wav2vec2",
+      "dataset": "mavceleb",
+      "gw_distance": 0.08035220294562608,
+      "spectral_gap": 0.1627903674075776,
+      "cka": 0.26069804983141853,
+      "id_mismatch": 15.6938461605557,
+      "eer": 0.38186813186813184
+    }
+  ]
+}

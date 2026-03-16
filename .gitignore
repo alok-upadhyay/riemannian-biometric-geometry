@@ -1,0 +1,39 @@
+# Data (symlinked datasets - large)
+data/
+
+# Large result files (embeddings are ~300MB)
+results/embeddings/
+results/curvature/*.npz
+
+# Paper and LaTeX artifacts
+paper/
+
+# Reviews and decision (private)
+reviews/
+
+# Template zip and OpenReview PDF
+mathai2026.zip
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+*.env

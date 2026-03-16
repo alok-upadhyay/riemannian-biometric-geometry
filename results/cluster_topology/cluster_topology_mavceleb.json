@@ -1,0 +1,58 @@
+{
+  "arcface": {
+    "intra_compactness": 0.056635286935738154,
+    "inter_separation": 0.01712719537317753,
+    "compactness_gap": -0.039508091562560625,
+    "silhouette_approx": -0.6975879120624728,
+    "encoder": "arcface",
+    "n_classes_with_enough_samples": 70
+  },
+  "siglip": {
+    "intra_compactness": 0.056529019006661005,
+    "inter_separation": 0.07428942620754242,
+    "compactness_gap": 0.017760407200881415,
+    "silhouette_approx": 0.2390704587119054,
+    "encoder": "siglip",
+    "n_classes_with_enough_samples": 70
+  },
+  "dinov2": {
+    "intra_compactness": 0.2015134647488594,
+    "inter_separation": 0.3714294731616974,
+    "compactness_gap": 0.169916008412838,
+    "silhouette_approx": 0.45746506588847646,
+    "encoder": "dinov2",
+    "n_classes_with_enough_samples": 70
+  },
+  "clip": {
+    "intra_compactness": 0.07155937309776034,
+    "inter_separation": 0.1741706281900406,
+    "compactness_gap": 0.10261125509228025,
+    "silhouette_approx": 0.5891421312456847,
+    "encoder": "clip",
+    "n_classes_with_enough_samples": 70
+  },
+  "wavlm": {
+    "intra_compactness": 0.20439665726252965,
+    "inter_separation": 0.12123704701662064,
+    "compactness_gap": -0.08315961024590901,
+    "silhouette_approx": -0.4068540618993478,
+    "encoder": "wavlm",
+    "n_classes_with_enough_samples": 70
+  },
+  "hubert": {
+    "intra_compactness": 0.02480907474245344,
+    "inter_separation": 0.009656602516770363,
+    "compactness_gap": -0.015152472225683077,
+    "silhouette_approx": -0.6107632946001841,
+    "encoder": "hubert",
+    "n_classes_with_enough_samples": 70
+  },
+  "wav2vec2": {
+    "intra_compactness": 0.0625761222413608,
+    "inter_separation": 0.01899000070989132,
+    "compactness_gap": -0.043586121531469485,
+    "silhouette_approx": -0.6965296021916242,
+    "encoder": "wav2vec2",
+    "n_classes_with_enough_samples": 70
+  }
+}

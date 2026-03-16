@@ -1,0 +1,110 @@
+{
+  "arcface__wavlm": {
+    "gw_distance": 0.06818259694525612,
+    "spectral_gap": 0.34878581119074575,
+    "cka": 0.04053951416982122,
+    "id_mismatch": 19.843729501939436,
+    "face_encoder": "arcface",
+    "voice_encoder": "wavlm",
+    "n_common_ids": 1249
+  },
+  "arcface__hubert": {
+    "gw_distance": 0.0050095604332180185,
+    "spectral_gap": 0.5217351876508722,
+    "cka": 0.015191630392047984,
+    "id_mismatch": 13.757945277161333,
+    "face_encoder": "arcface",
+    "voice_encoder": "hubert",
+    "n_common_ids": 1249
+  },
+  "arcface__wav2vec2": {
+    "gw_distance": 0.0033765971603070414,
+    "spectral_gap": 0.32281306809270793,
+    "cka": 0.020259356850152434,
+    "id_mismatch": 9.495401224535122,
+    "face_encoder": "arcface",
+    "voice_encoder": "wav2vec2",
+    "n_common_ids": 1249
+  },
+  "siglip__wavlm": {
+    "gw_distance": 0.01610694073484856,
+    "spectral_gap": 0.23050617959272288,
+    "cka": 0.1290199886483133,
+    "id_mismatch": 21.765170574799708,
+    "face_encoder": "siglip",
+    "voice_encoder": "wavlm",
+    "n_common_ids": 1249
+  },
+  "siglip__hubert": {
+    "gw_distance": 0.03157971972886352,
+    "spectral_gap": 0.42489713702286735,
+    "cka": 0.025557209784140607,
+    "id_mismatch": 15.679386350021606,
+    "face_encoder": "siglip",
+    "voice_encoder": "hubert",
+    "n_common_ids": 1249
+  },
+  "siglip__wav2vec2": {
+    "gw_distance": 0.021139803271282814,
+    "spectral_gap": 0.2859438427229105,
+    "cka": 0.02798382759543697,
+    "id_mismatch": 11.416842297395394,
+    "face_encoder": "siglip",
+    "voice_encoder": "wav2vec2",
+    "n_common_ids": 1249
+  },
+  "dinov2__wavlm": {
+    "gw_distance": 0.016487534491481673,
+    "spectral_gap": 0.27460408593866004,
+    "cka": 0.16974257051263483,
+    "id_mismatch": 20.718355607925968,
+    "face_encoder": "dinov2",
+    "voice_encoder": "wavlm",
+    "n_common_ids": 1249
+  },
+  "dinov2__hubert": {
+    "gw_distance": 0.14720084569123218,
+    "spectral_gap": 0.46069899513701634,
+    "cka": 0.03250670967087864,
+    "id_mismatch": 14.632571383147866,
+    "face_encoder": "dinov2",
+    "voice_encoder": "hubert",
+    "n_common_ids": 1249
+  },
+  "dinov2__wav2vec2": {
+    "gw_distance": 0.12226133487468814,
+    "spectral_gap": 0.32575853906124974,
+    "cka": 0.03443342136347082,
+    "id_mismatch": 10.370027330521655,
+    "face_encoder": "dinov2",
+    "voice_encoder": "wav2vec2",
+    "n_common_ids": 1249
+  },
+  "clip__wavlm": {
+    "gw_distance": 0.006515630972957265,
+    "spectral_gap": 0.41611347447059654,
+    "cka": 0.21069686350121672,
+    "id_mismatch": 23.014808366199098,
+    "face_encoder": "clip",
+    "voice_encoder": "wavlm",
+    "n_common_ids": 1249
+  },
+  "clip__hubert": {
+    "gw_distance": 0.08471772431610214,
+    "spectral_gap": 0.6310267424279375,
+    "cka": 0.05186883179504457,
+    "id_mismatch": 16.929024141420996,
+    "face_encoder": "clip",
+    "voice_encoder": "hubert",
+    "n_common_ids": 1249
+  },
+  "clip__wav2vec2": {
+    "gw_distance": 0.0661762513203551,
+    "spectral_gap": 0.4682640746879251,
+    "cka": 0.06080751825881936,
+    "id_mismatch": 12.666480088794785,
+    "face_encoder": "clip",
+    "voice_encoder": "wav2vec2",
+    "n_common_ids": 1249
+  }
+}

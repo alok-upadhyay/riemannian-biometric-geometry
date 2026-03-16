@@ -1,0 +1,44 @@
+# Geometry analysis configuration
+data:
+  audio_sample_rate: 16000
+  audio_max_length_sec: 5.0
+  image_size: 224  # Default; ArcFace uses 112, SigLIP uses 384 internally
+  voxceleb1_root: data/VoxCeleb1
+  mavceleb_root: data/MAV-Celeb
+  max_samples_per_id: 20
+  batch_size: 32
+  num_workers: 4
+
+encoders:
+  face:
+    - arcface
+    - siglip
+    - dinov2
+    - clip
+  voice:
+    - wavlm
+    - hubert
+    - wav2vec2
+
+geometry:
+  intrinsic_dim:
+    methods: [mle, twonn]
+    k_neighbors: 20
+  curvature:
+    n_sample_points: 1000
+    k_neighbors: 50
+    ridge_alpha: 1.0e-3
+  cluster_topology:
+    min_samples_per_id: 5
+  cross_modal:
+    gh_max_points: 500
+    spectral_k_neighbors: 20
+    spectral_n_eigenvalues: 50
+    cka_kernel: linear
+
+evaluation:
+  cca_train_fraction: 0.8
+  n_cca_components: 128
+  seed: 42
+
+results_dir: results

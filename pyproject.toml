@@ -1,0 +1,37 @@
+[project]
+name = "math-ai-2026"
+version = "0.1.0"
+description = "Riemannian Geometry of Multimodal Biometric Embedding Spaces"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "torchaudio",
+    "torchvision",
+    "transformers>=4.36",
+    "timm",
+    "peft",
+    "soundfile",
+    "Pillow",
+    "scikit-learn",
+    "scipy",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "tqdm",
+    "omegaconf",
+    "open_clip_torch",
+    "speechbrain",
+    "insightface",
+    "onnxruntime-gpu",
+    "scikit-dimension",
+    "POT",
+    "einops",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[tool.ruff]
+line-length = 120

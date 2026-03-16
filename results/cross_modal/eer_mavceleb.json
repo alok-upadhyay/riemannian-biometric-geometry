@@ -1,0 +1,110 @@
+{
+  "arcface__wavlm": {
+    "eer": 0.5192307692307692,
+    "threshold": 0.037193496788330234,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "arcface",
+    "voice_encoder": "wavlm"
+  },
+  "arcface__hubert": {
+    "eer": 0.5686813186813187,
+    "threshold": -0.01182330974140118,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "arcface",
+    "voice_encoder": "hubert"
+  },
+  "arcface__wav2vec2": {
+    "eer": 0.5714285714285714,
+    "threshold": -0.02970980987590355,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "arcface",
+    "voice_encoder": "wav2vec2"
+  },
+  "siglip__wavlm": {
+    "eer": 0.3434065934065934,
+    "threshold": 0.18356783892491482,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "siglip",
+    "voice_encoder": "wavlm"
+  },
+  "siglip__hubert": {
+    "eer": 0.37362637362637363,
+    "threshold": 0.08462832392517215,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "siglip",
+    "voice_encoder": "hubert"
+  },
+  "siglip__wav2vec2": {
+    "eer": 0.41208791208791207,
+    "threshold": 0.10970353181773373,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "siglip",
+    "voice_encoder": "wav2vec2"
+  },
+  "dinov2__wavlm": {
+    "eer": 0.34065934065934067,
+    "threshold": 0.20857417199859302,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "dinov2",
+    "voice_encoder": "wavlm"
+  },
+  "dinov2__hubert": {
+    "eer": 0.33516483516483514,
+    "threshold": 0.14981749391818014,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "dinov2",
+    "voice_encoder": "hubert"
+  },
+  "dinov2__wav2vec2": {
+    "eer": 0.3708791208791209,
+    "threshold": 0.10678225792028562,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "dinov2",
+    "voice_encoder": "wav2vec2"
+  },
+  "clip__wavlm": {
+    "eer": 0.27472527472527475,
+    "threshold": 0.18682406909391644,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "clip",
+    "voice_encoder": "wavlm"
+  },
+  "clip__hubert": {
+    "eer": 0.2912087912087912,
+    "threshold": 0.13804266283919692,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "clip",
+    "voice_encoder": "hubert"
+  },
+  "clip__wav2vec2": {
+    "eer": 0.38186813186813184,
+    "threshold": 0.07844031383971618,
+    "n_train_ids": 56,
+    "n_test_ids": 14,
+    "raw_eer": NaN,
+    "face_encoder": "clip",
+    "voice_encoder": "wav2vec2"
+  }
+}
